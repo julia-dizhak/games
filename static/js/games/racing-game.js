@@ -60,7 +60,7 @@ Car.prototype.moveDown = function(distance) {
 var tesla = new Car(150, 150);
 var nissan = new Car(250, 250);
 
-// setInterval(function () {
-//   tesla.moveRight(Math.random() * 5);
-//   nissan.moveRight(Math.random() * 5);
-// }, 30);
+setInterval(function () {
+  tesla.moveRight(Math.random() * 5);
+  nissan.moveRight(Math.random() * 5);
+}, 30);
